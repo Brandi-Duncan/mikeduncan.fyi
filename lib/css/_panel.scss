@@ -1,0 +1,29 @@
+.panel {
+  color: $color-white;
+  padding: 8rem $padding-content;
+  text-align: center;
+
+  &--blue {
+    background-color: powderblue;
+  }
+
+  &--green {
+    background-color: aquamarine;
+  }
+
+  &--red {
+    background-color: lightsalmon;
+  }
+}
+
+.panel__title {
+  color: rgba($color-black, 0.85);
+  letter-spacing: 0.05em;
+  margin-bottom: 0.2em;
+  text-transform: uppercase;
+}
+
+.panel__body {
+  color: rgba($color-black, 0.55);
+  margin-bottom: 1em;
+}
