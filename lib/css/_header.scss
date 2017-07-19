@@ -1,0 +1,29 @@
+.header,
+.header__nav {
+  align-items: center;
+  display: flex;
+}
+
+.header {
+  background-color: $color-grey;
+  color: rgba($color-black, 0.75);
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1;
+  justify-content: space-between;
+  padding: $padding-content;
+  white-space: nowrap;
+}
+
+.header__nav > a:not(:last-child) {
+  padding-right: 1em;
+}
+
+@media screen and (max-width: 640px) {
+  .header {
+    flex-direction: column;
+  }
+  .header__nav {
+    margin-top: 1em;
+  }
+}
