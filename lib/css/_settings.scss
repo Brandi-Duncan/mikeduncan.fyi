@@ -1,11 +1,23 @@
 $color-black: #222222;
 $color-white: #ffffff;
 $color-grey: #f0f0f0;
+$color-gold: #bfa689;
+
+/*colors from book cover*/
+$color-rich-black: #0C020C;
+$color-dark-gold: #8B7A62;
+$color-light-gold:#F3D8B1;
+$color-tan: #BEA893;
 
 $color-text: $color-black;
 $color-background: $color-white;
 
-$font-text: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-head: $font-text;
+$font-open-sans: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-crete: "Crete Round", serif;
+$font-alice: "Alice", serif;
+$font-roboto: "Roboto Slab", serif;
+//$font-head: $font-crete;
+
+
 
 $padding-content: 2rem;
