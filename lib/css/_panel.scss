@@ -1,18 +1,39 @@
 .panel {
   color: $color-white;
-  padding: 8rem $padding-content;
+//  height: 500px;
+  padding: 4rem $padding-content;
   text-align: center;
+    border-bottom: solid 1px $color-gold;
 
-  &--blue {
-    background-color: powderblue;
+  &--book {
+    background-color: $color-rich-black;
+//    background-image: url("/lib/images/SBTS-mkd-banner-01.jpg");
+      background-image: radial-gradient(circle, $color-gold, transparent);
+    background-position: center;  
+      
+      img {
+          max-width: 15em;
+      }
+
   }
 
-  &--green {
-    background-color: aquamarine;
+  &--revolutions {
+    background-color: $color-white;
+    background-image: url("/lib/images/revolutions-banner-02.jpg");
+    background-position: center;
+
   }
 
-  &--red {
-    background-color: lightsalmon;
+  &--thor {
+    background-color: $color-white;
+    background-image: url("/lib/images/THoR-mkd-banner-01.jpg");
+    background-position: center;
+
+      
+      p {
+          margin: 1.5em auto;
+          max-width: 30em;
+      }
   }
 }
 
@@ -24,6 +45,26 @@
 }
 
 .panel__body {
-  color: rgba($color-black, 0.55);
-  margin-bottom: 1em;
+  color: $color-white;
+    font-family: $font-roboto;
+    font-weight: 700;
+  font-size: 1.25em;
+  color: white;
+  text-shadow: 0px 0px 13px #000;
+  margin: 0 auto 1em;
+}
+
+.banner {
+    background-color: $color-rich-black;
+    color: $color-white;
+    font-family: $font-open-sans;
+    font-weight: 700;
+    font-size: .75em;
+    letter-spacing: 0.25em;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: .5em;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
 }
