@@ -3,7 +3,26 @@
   border-radius: 2px;
   color: $color-white;
   display: inline-block;
+  font-size: 0.875rem;
   font-weight: 700;
-  padding: 1rem 2rem;
-  margin: 1.5em .5em;
+  letter-spacing: .1em;
+  padding: 1rem 0;
+  margin: 0 .5em 1em;
+  width: 210px;
+    
+    
+    &--book {
+    background-color: $color-tan;
+    }
+    
+    &--rev {
+    background-color: $color-green;    
+    }
+    
+    &--thor {
+    background-color: $color-brown;    
+    }
+
 }
+
+
