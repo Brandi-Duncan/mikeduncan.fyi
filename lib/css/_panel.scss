@@ -3,16 +3,17 @@
 //  height: 500px;
   padding: 4rem $padding-content;
   text-align: center;
-    border-bottom: solid 1px $color-gold;
+  border-bottom: solid 1px $color-gold;
 
   &--book {
-    background-color: $color-rich-black;
+    background-color: $color-black;
 //    background-image: url("/lib/images/SBTS-mkd-banner-01.jpg");
-      background-image: radial-gradient(circle, $color-gold, transparent);
+      background-image: linear-gradient(rgba($color-gold, 0.25), transparent);
     background-position: center;  
       
       img {
           max-width: 15em;
+          margin-bottom: 2em;
       }
 
   }
@@ -21,6 +22,10 @@
     background-color: $color-white;
     background-image: url("/lib/images/revolutions-banner-02.jpg");
     background-position: center;
+      
+      img {
+          margin-bottom: 1.5em;
+      }
 
   }
 
@@ -29,6 +34,9 @@
     background-image: url("/lib/images/THoR-mkd-banner-01.jpg");
     background-position: center;
 
+      img {
+          margin-bottom: 3em;
+      }
       
       p {
           margin: 1.5em auto;

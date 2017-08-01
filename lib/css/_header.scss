@@ -5,18 +5,20 @@
 }
 
 .header {
-  background-color: $color-grey;
-  color: rgba($color-black, 0.75);
+  background-color: $color-rich-black;
+  color: $color-white;
   font-size: 0.875rem;
   font-weight: 700;
+  letter-spacing: .1em;
   line-height: 1;
   justify-content: space-between;
   padding: $padding-content;
   white-space: nowrap;
+  border-bottom: solid 1px $color-gold;
 }
 
 .header__nav > a:not(:last-child) {
-  padding-right: 1em;
+  padding-right: 3em;
 }
 
 @media screen and (max-width: 640px) {
