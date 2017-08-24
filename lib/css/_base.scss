@@ -12,7 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   background-color: $color-background;
   color: $color-text;
-  font-family: $font-alice;
+  font-family: $font-zilla-slab;
   line-height: 1.45;
   text-rendering: geometricPrecision;
 }
@@ -54,6 +54,7 @@ h6 {
 
 .content > p {
   max-width: 30rem;
+    margin-bottom: 1.5em;
 }
 
 .content > h1 {
